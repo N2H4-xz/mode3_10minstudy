@@ -23,8 +23,7 @@ def get_model_name() -> str:
 
 
 # ── 特征规格表 ──────────────────────────────────────────────────────────────
-# 严格按论文 3.2 Stylistic Feature Extraction 的六类风格指标组织。
-# LLM 在分析时必须输出以下 key，中文标签用于展示。
+# LLM 在分析时必须输出以下六类风格指标，中文标签用于展示。
 CHARACTERISTICS_SPEC: list[dict] = [
     {
         "key": "lexical_complexity",
@@ -39,7 +38,7 @@ CHARACTERISTICS_SPEC: list[dict] = [
     {
         "key": "formality_indices",
         "label": "形式化指数",
-        "metrics": "代词、冠词、功能词在非正式与正式语篇中的占比差异",
+        "metrics": "代词比例、功能词比例、正式表达与口语表达占比",
     },
     {
         "key": "emotiveness",
@@ -49,7 +48,7 @@ CHARACTERISTICS_SPEC: list[dict] = [
     {
         "key": "readability_metrics",
         "label": "可读性指标",
-        "metrics": "Flesch-Kincaid 分级水平、Gunning Fog 指数或中文语境下的可读性近似判断",
+        "metrics": "长句比例、分句密度、抽象词密度、结构清晰度、阅读难度",
     },
     {
         "key": "interpersonal_markers",
