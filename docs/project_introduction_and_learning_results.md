@@ -74,7 +74,7 @@ python main.py -i transcripts\inputs\input_style_moyan_yuhua_first30_host_lina.t
 
 第一层是样本准备。`main.py` 只接受纯文本输入，并且要求输入尽量来自同一个说话人。对于莫言、余华这类访谈数据，项目不会直接把完整访谈或 SRT 输入给分析器，而是先通过人工校对和 `tools/correct_moyan_yuhua_transcripts.py` 将访谈内容按说话人拆分，生成 `transcripts/inputs/input_style_moyan_yuhua_first30_moyan.txt`、`transcripts/inputs/input_style_moyan_yuhua_first30_yuhua.txt` 等单人样本。这样可以避免主持人、嘉宾和现场插话混入同一个风格画像。
 
-第二层是特征抽取。`analyzer.py` 会把完整样本文本包在 `<chat_log>...</chat_log>` 中发送给模型，并使用专门的系统提示词要求模型分析整段文本，而不是只看开头几句。分析维度由 `config.py` 中的 `CHARACTERISTICS_SPEC` 固定为六类一级指标：
+第二层是特征抽取。`analyzer.py` 会把完整样本文本包在 `<chat_log>...</chat_log>` 中发送给模型，并使用专门的系统提示词要求模型分析整段文本，而不是只看开头几句。分析维度由 `config.py` 中的 `CHARACTERISTICS_SPEC` 固定为五类一级指标：
 
 | 分类 | 项目 key | 具体指标 |
 | --- | --- | --- |
@@ -82,10 +82,9 @@ python main.py -i transcripts\inputs\input_style_moyan_yuhua_first30_host_lina.t
 | 句法复杂度 | `syntactic_complexity` | 平均句子长度、从句出现频率、词性分布 |
 | 形式化指数 | `formality_indices` | 代词比例、功能词比例、正式表达与口语表达占比 |
 | 情感表达度 | `emotiveness` | 感叹号、表情符号、强化词或情感词汇的使用频率 |
-| 可读性指标 | `readability_metrics` | 长句比例、分句密度、抽象词密度、结构清晰度、阅读难度 |
 | 人际交往标记 | `interpersonal_markers` | 礼貌策略、免责声明、模糊语以及表达立场或礼貌程度的委婉语 |
 
-每个一级特征都必须输出描述、3 到 5 条原文例句、判断依据和置信度。项目不再把“标点风格”“话题转换”“回答详略”等作为独立一级分类；如果这些现象需要描述，只能归入上述六类中的对应类别。
+每个一级特征都必须输出描述、3 到 5 条原文例句、判断依据和置信度。项目不再把“标点风格”“话题转换”“回答详略”等作为独立一级分类；如果这些现象需要描述，只能归入上述五类中的对应类别。
 
 第三层是结构化保存。模型返回的结果必须是严格 JSON。`analyzer.py` 会解析 JSON，并转换为 `models.py` 中定义的 `StyleProfile`。其中每个特征都是一个 `Characteristic`，包含 `key`、中文标签、特征描述、例句、证据和置信度。如果模型漏掉某个特征，解析逻辑会用“未分析”和 `0.0` 置信度兜底，保证后续流程拿到的风格画像结构稳定。
 
@@ -103,7 +102,7 @@ python main.py -i transcripts\inputs\input_style_moyan_yuhua_first30_host_lina.t
 | --- | --- |
 | `Characteristic` | 单个一级风格特征，包括 key、中文标签、描述、例句、判断依据和置信度 |
 | `RawStats` | 原始统计信息，包括消息数、平均字符数和总字符数 |
-| `StyleProfile` | 一份完整的说话风格画像，包含六类风格特征与版本号 |
+| `StyleProfile` | 一份完整的说话风格画像，包含五类风格特征与版本号 |
 | `MimicryPromptPair` | 两版风格模仿提示词及其对应的风格画像快照 |
 
 
@@ -128,7 +127,6 @@ python main.py -i transcripts\inputs\input_style_moyan_yuhua_first30_host_lina.t
 | Syntactic Complexity 句法复杂度 | 平均句长约 25 字/句，以复合长句为主；从句和并列分句较多，约 2.5 个分句/句；动词、名词和助词使用较多 |
 | 形式化指数 | 代词比例约 0.15，第一人称使用较多；功能词比例约 0.3；正式表达与口语表达混合，整体呈半正式口语风格 |
 | Emotiveness 情感表达度 | 情感词频率约 0.1；感叹号和表情符号少见，情绪表达克制；强化词和程度副词适度出现 |
-| 可读性指标 | 长句比例偏高，分句密度较高，抽象词密度中等；因复合长句和连续背景补充较多，结构清晰度中等，阅读难度中等偏高 |
 | Interpersonal Markers 人际交往标记 | 常通过“当然”“我觉得”“我说”等立场标记组织表达；偶尔使用设问自答和委婉判断，礼貌策略不明显但语气整体平和 |
 
 ### 6.3 生成提示词的表达要求
@@ -177,7 +175,6 @@ python main.py -i transcripts\inputs\input_style_moyan_yuhua_first30_host_lina.t
 | Syntactic Complexity 句法复杂度 | 平均句长约 15 字/句，长短句混合；短句约 5 到 10 字，长句约 15 到 25 字；从句频率中等，约 1.5 个从句/句 |
 | 形式化指数 | 代词比例约 0.2；功能词比例约 0.3；正式表达与口语表达混合 |
 | Emotiveness 情感表达度 | 情感词频率约 0.1；感叹号和表情符号少见，情绪表达较低；强调主要通过“其实”“确实”等语气词完成 |
-| 可读性指标 | 长句比例中等，分句密度中等，抽象词密度中等；句子较莫言样本更短，段落层次更清楚，阅读难度中等 |
 | Interpersonal Markers 人际交往标记 | 可用问候语开头，也常直接进入主题；常见“我觉得”“其实”“确实”等立场标记和轻度缓和语，偶尔使用反问或设问 |
 
 ### 7.3 生成提示词的表达要求

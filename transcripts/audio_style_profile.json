@@ -56,20 +56,6 @@
       "evidence": "教学讲解部分情绪表达克制，闲聊或临场反应中出现少量语气词和情绪词。",
       "confidence": 0.8
     },
-    "readability_metrics": {
-      "key": "readability_metrics",
-      "label": "可读性指标",
-      "value": "长句比例中等；分句密度中等；抽象词密度偏低；样本解释步骤清楚、口语停顿多，但部分技术长句增加阅读难度，阅读难度中等。",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
-        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
-        "大家现在可以先不用管。",
-        "当你只有一个动画的时候，你里边只创建一个可以这样动的东西的，你可以混入那个 SingleTickerProviderStateMixin。",
-        "然后我们在监听器里边 setState。"
-      ],
-      "evidence": "文本按解释步骤推进，短句降低理解门槛，但技术概念和复合长句使阅读难度上升。",
-      "confidence": 0.75
-    },
     "interpersonal_markers": {
       "key": "interpersonal_markers",
       "label": "人际交往标记",

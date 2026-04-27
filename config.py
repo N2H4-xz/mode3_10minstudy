@@ -23,7 +23,7 @@ def get_model_name() -> str:
 
 
 # ── 特征规格表 ──────────────────────────────────────────────────────────────
-# LLM 在分析时必须输出以下六类风格指标，中文标签用于展示。
+# LLM 在分析时必须输出以下五类风格指标，中文标签用于展示。
 CHARACTERISTICS_SPEC: list[dict] = [
     {
         "key": "lexical_complexity",
@@ -44,11 +44,6 @@ CHARACTERISTICS_SPEC: list[dict] = [
         "key": "emotiveness",
         "label": "情感表达度",
         "metrics": "感叹号、表情符号、强化词或情感词汇的使用频率",
-    },
-    {
-        "key": "readability_metrics",
-        "label": "可读性指标",
-        "metrics": "长句比例、分句密度、抽象词密度、结构清晰度、阅读难度",
     },
     {
         "key": "interpersonal_markers",

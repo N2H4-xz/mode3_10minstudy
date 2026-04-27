@@ -48,18 +48,6 @@
       "evidence": "样本中感叹号和表情符号少见，情绪主要通过少量情感词和程度表达体现。",
       "confidence": 0.6
     },
-    "readability_metrics": {
-      "key": "readability_metrics",
-      "label": "可读性指标",
-      "value": "长句比例：中等；分句密度：中等；抽象词密度：中等；结构清晰度：中等；阅读难度：中等",
-      "examples": [
-        "我的那个流传比较广的版本，就是不愿意做牙医，想去文化馆上班",
-        "故事怎么开始可以忽略，但是故事怎么结尾你不知道，就很难受",
-        "我觉得莫言说得非常对的一点，就是在 AI 面前，原创越强大的人，肯定存活的几率越大"
-      ],
-      "evidence": "句子有一定复杂度，但词汇选择较为常见，整体阅读难度中等。",
-      "confidence": 0.7
-    },
     "interpersonal_markers": {
       "key": "interpersonal_markers",
       "label": "人际交往标记",
