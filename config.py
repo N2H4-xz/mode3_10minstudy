@@ -23,27 +23,39 @@ def get_model_name() -> str:
 
 
 # ── 特征规格表 ──────────────────────────────────────────────────────────────
-# LLM 在分析时必须输出以下 key，中文标签用于展示
+# 严格按论文 3.2 Stylistic Feature Extraction 的六类风格指标组织。
+# LLM 在分析时必须输出以下 key，中文标签用于展示。
 CHARACTERISTICS_SPEC: list[dict] = [
-    {"key": "sentence_length",         "label": "句子长度模式"},
-    {"key": "punctuation_style",       "label": "标点与情绪表达"},
-    {"key": "formality_level",         "label": "正式程度"},
-    {"key": "logical_connectors",      "label": "逻辑连接词使用"},
-    {"key": "response_completeness",   "label": "回答详略程度"},
-    {"key": "topic_transition",        "label": "话题转换方式"},
-    {"key": "message_structure",       "label": "消息结构（单行/多行）"},
-    {"key": "opener_closer_phrases",   "label": "惯用开头/结尾语"},
-    {"key": "question_usage",          "label": "疑问句使用习惯"},
-    {"key": "vocabulary_characteristics", "label": "词汇特点"},
-    {"key": "avg_word_length",         "label": "平均词长"},
-    {"key": "type_token_ratio",        "label": "Type-token ratio"},
-    {"key": "avg_sentence_length",     "label": "平均句长"},
-    {"key": "clause_frequency",        "label": "从句频率"},
-    {"key": "pos_distribution",        "label": "词性分布"},
-    {"key": "pronoun_ratio",           "label": "代词比例"},
-    {"key": "article_ratio",           "label": "冠词比例"},
-    {"key": "function_word_ratio",     "label": "功能词比例"},
-    {"key": "emotion_word_frequency",  "label": "情绪词频率"},
+    {
+        "key": "lexical_complexity",
+        "label": "词汇复杂度",
+        "metrics": "平均词长、type-token ratio、高级词汇使用情况",
+    },
+    {
+        "key": "syntactic_complexity",
+        "label": "句法复杂度",
+        "metrics": "平均句子长度、从句出现频率、词性分布",
+    },
+    {
+        "key": "formality_indices",
+        "label": "形式化指数",
+        "metrics": "代词、冠词、功能词在非正式与正式语篇中的占比差异",
+    },
+    {
+        "key": "emotiveness",
+        "label": "情感表达度",
+        "metrics": "感叹号、表情符号、强化词或情感词汇的使用频率",
+    },
+    {
+        "key": "readability_metrics",
+        "label": "可读性指标",
+        "metrics": "Flesch-Kincaid 分级水平、Gunning Fog 指数或中文语境下的可读性近似判断",
+    },
+    {
+        "key": "interpersonal_markers",
+        "label": "人际交往标记",
+        "metrics": "礼貌策略、免责声明、模糊语以及表达立场或礼貌程度的委婉语",
+    },
 ]
 
 # key → label 快查

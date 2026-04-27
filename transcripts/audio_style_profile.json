@@ -1,9 +1,9 @@
 {
   "characteristics": {
-    "sentence_length": {
-      "key": "sentence_length",
-      "label": "句子长度模式",
-      "value": "长短句混合",
+    "lexical_complexity": {
+      "key": "lexical_complexity",
+      "label": "词汇复杂度",
+      "value": "平均词长中等；type-token ratio 中等；口语化教学词汇与技术术语混合，常用“这个”“然后”“一般”等口语连接成分。",
       "examples": [
         "现在好了。",
         "然后先来解释一下这个是什么意思。",
@@ -11,252 +11,78 @@
         "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
         "大家现在可以先不用管。"
       ],
-      "evidence": "既有短句也有长句，长短句交替使用",
-      "confidence": 0.9
-    },
-    "punctuation_style": {
-      "key": "punctuation_style",
-      "label": "标点与情绪表达",
-      "value": "混合使用句号和逗号，偶尔使用问号",
-      "examples": [
-        "现在好了。",
-        "然后先来解释一下这个是什么意思。",
-        "这是什么？",
-        "然后呢，我也在这儿给它设置为 repeat。",
-        "可以参观图书馆。"
-      ],
-      "evidence": "句号和逗号为主，问号偶尔出现",
-      "confidence": 0.8
-    },
-    "formality_level": {
-      "key": "formality_level",
-      "label": "正式程度",
-      "value": "混合正式与非正式",
-      "examples": [
-        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
-        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
-        "那怎么做呢，多抄点，抄点。",
-        "抄太少，抄太少，全自己写不行。",
-        "我真是受不了，这真的有点离谱。"
-      ],
-      "evidence": "教学部分较正式，闲聊部分非常口语化",
-      "confidence": 0.9
-    },
-    "logical_connectors": {
-      "key": "logical_connectors",
-      "label": "逻辑连接词使用",
-      "value": "常用'然后'、'就是'、'因为'等连接词",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
-        "就是现在那个在 Steam 上应该还是个 demo。",
-        "因为 Animation 它使用它的 value 这个状态，得到当前的值，它就可以来获得它这个动画实际应该放的位置。",
-        "然后呢，我也在这儿给它设置为 repeat。",
-        "然后你给它传进去之后，当你在某个地方控制你的动画开始进行了，那么这个组件就会帮你完成这个页面的重绘。"
-      ],
-      "evidence": "频繁使用连接词来组织语句",
+      "evidence": "样本文本同时包含口语连接词、教学解释词和技术术语，词汇复杂度处于中等水平。",
       "confidence": 0.85
     },
-    "response_completeness": {
-      "key": "response_completeness",
-      "label": "回答详略程度",
-      "value": "完整句子与片段混合",
+    "syntactic_complexity": {
+      "key": "syntactic_complexity",
+      "label": "句法复杂度",
+      "value": "平均句长中等偏长；讲解概念时使用较长复合句，临场反应时使用短句；从句和因果分句频率中等。",
       "examples": [
         "现在好了。",
         "然后先来解释一下这个是什么意思。",
-        "抄太少，抄太少，全自己写不行。",
-        "可以参观图书馆。",
-        "96 个平行志愿，这不随便报报。"
+        "因为 Animation 它使用它的 value 这个状态，得到当前的值，它就可以来获得它这个动画实际应该放的位置。",
+        "然后你给它传进去之后，当你在某个地方控制你的动画开始进行了，那么这个组件就会帮你完成这个页面的重绘。",
+        "大家现在可以先不用管。"
       ],
-      "evidence": "既有完整句子也有口语片段",
-      "confidence": 0.8
-    },
-    "topic_transition": {
-      "key": "topic_transition",
-      "label": "话题转换方式",
-      "value": "自然过渡与突兀切换并存",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
-        "对了，然后早上配着喝的一般是那种米酒或者是豆浆。",
-        "所以去武大吗？",
-        "那有什么可参观的？",
-        "96 个平行志愿，这不随便报报。"
-      ],
-      "evidence": "教学部分过渡自然，闲聊部分话题跳跃",
-      "confidence": 0.75
-    },
-    "message_structure": {
-      "key": "message_structure",
-      "label": "消息结构（单行/多行）",
-      "value": "混合使用简单句和复杂句",
-      "examples": [
-        "现在好了。",
-        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
-        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
-        "那怎么做呢，多抄点，抄点。",
-        "我真是受不了，这真的有点离谱。"
-      ],
-      "evidence": "结构多样，既有简单句也有复杂句",
+      "evidence": "短句与解释性长句交替出现，长句中常包含因果、条件和顺承分句。",
       "confidence": 0.85
     },
-    "opener_closer_phrases": {
-      "key": "opener_closer_phrases",
-      "label": "惯用开头/结尾语",
-      "value": "较少使用固定开头结尾短语",
+    "formality_indices": {
+      "key": "formality_indices",
+      "label": "形式化指数",
+      "value": "代词和指示词使用较多；冠词比例为 0.0，中文不适用；功能词比例约 0.3，整体为半正式口语教学风格。",
       "examples": [
-        "现在好了。",
-        "然后先来解释一下这个是什么意思。",
-        "对了，然后早上配着喝的一般是那种米酒或者是豆浆。",
-        "所以去武大吗？",
-        "96 个平行志愿，这不随便报报。"
-      ],
-      "evidence": "开头结尾形式多样，无固定模式",
-      "confidence": 0.7
-    },
-    "question_usage": {
-      "key": "question_usage",
-      "label": "疑问句使用习惯",
-      "value": "偶尔使用疑问句",
-      "examples": [
-        "这是什么？",
-        "那有什么可参观的？",
-        "喝南瓜粥还是喝咸粥？",
-        "这样吗？好，说吗。",
-        "可以参观图书馆。"
-      ],
-      "evidence": "疑问句出现频率中等",
-      "confidence": 0.75
-    },
-    "vocabulary_characteristics": {
-      "key": "vocabulary_characteristics",
-      "label": "词汇特点",
-      "value": "口语化词汇与专业术语混合",
-      "examples": [
-        "animation 这个东西",
-        "抄太少，抄太少，全自己写不行。",
-        "我真是受不了，这真的有点离谱。",
-        "AnimationController",
-        "AnimatedWidget"
-      ],
-      "evidence": "教学部分使用专业术语，闲聊部分高度口语化",
-      "confidence": 0.9
-    },
-    "avg_word_length": {
-      "key": "avg_word_length",
-      "label": "平均词长",
-      "value": "约 1.5 字/词，中文单字词和双字词混合",
-      "examples": [
-        "现在好了。",
-        "然后先来解释一下这个是什么意思。",
-        "抄太少，抄太少，全自己写不行。",
-        "AnimationController",
-        "AnimatedWidget"
-      ],
-      "evidence": "中文词汇以单字和双字为主，夹杂英文术语",
-      "confidence": 0.8
-    },
-    "type_token_ratio": {
-      "key": "type_token_ratio",
-      "label": "Type-token ratio",
-      "value": "0.6 左右，词汇重复度中等",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "你只需要知道，当我们需要在某个组件内部使用状态、使用动画的时候",
         "然后呢，我也在这儿给它设置为 repeat。",
-        "然后你给它传进去之后",
-        "抄太少，抄太少",
-        "我真是受不了，这真的有点离谱。"
+        "大家现在可以先不用管。",
+        "这是什么？"
       ],
-      "evidence": "部分词汇重复使用，但整体词汇多样性尚可",
-      "confidence": 0.7
+      "evidence": "“我们”“你”“这个”等代词和指示词频繁出现，功能词较多，正式程度介于课堂讲解和自然口语之间。",
+      "confidence": 0.85
     },
-    "avg_sentence_length": {
-      "key": "avg_sentence_length",
-      "label": "平均句长",
-      "value": "约 15 字/句，句子长度差异较大",
+    "emotiveness": {
+      "key": "emotiveness",
+      "label": "情感表达度",
+      "value": "感叹号频率低；表情符号频率为 0；强化词和情感词汇低频，偶尔出现“诶”“哦”“真是”“离谱”等轻微情绪表达。",
       "examples": [
-        "现在好了。",
-        "然后先来解释一下这个是什么意思。",
-        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
-        "抄太少，抄太少，全自己写不行。",
-        "我真是受不了，这真的有点离谱。"
-      ],
-      "evidence": "从短句到长句都有使用",
-      "confidence": 0.75
-    },
-    "clause_frequency": {
-      "key": "clause_frequency",
-      "label": "从句频率",
-      "value": "约 1.5 从句/句，中等频率使用从句",
-      "examples": [
-        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
-        "因为 Animation 它使用它的 value 这个状态，得到当前的值，它就可以来获得它这个动画实际应该放的位置。",
-        "当你调用它这个函数的时候，那么它这个值就会开始变化。",
-        "当你调用 stop，那么这个值就停止变化。",
-        "我们更好的办法，是使用 AnimatedWidget 的一个组件。"
-      ],
-      "evidence": "教学部分较多使用从句，闲聊部分较少",
-      "confidence": 0.7
-    },
-    "pos_distribution": {
-      "key": "pos_distribution",
-      "label": "词性分布",
-      "value": "名词和动词为主，少量形容词和副词",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
-        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
-        "抄太少，抄太少，全自己写不行。",
-        "我真是受不了，这真的有点离谱。",
-        "可以参观图书馆。"
-      ],
-      "evidence": "实词使用频率高于虚词",
-      "confidence": 0.8
-    },
-    "pronoun_ratio": {
-      "key": "pronoun_ratio",
-      "label": "代词比例",
-      "value": "0.2 左右，代词使用频率中等",
-      "examples": [
-        "我们这里一般这个 animation 这个东西",
-        "你只需要知道",
-        "它都会调用你添加的监听器",
-        "我也在这儿给它设置为 repeat",
-        "我真是受不了"
-      ],
-      "evidence": "人称代词和指示代词都有使用",
-      "confidence": 0.75
-    },
-    "article_ratio": {
-      "key": "article_ratio",
-      "label": "冠词比例",
-      "value": "0.0，中文不适用冠词",
-      "examples": [],
-      "evidence": "中文无冠词系统",
-      "confidence": 1.0
-    },
-    "function_word_ratio": {
-      "key": "function_word_ratio",
-      "label": "功能词比例",
-      "value": "0.3 左右，功能词使用比例中等",
-      "examples": [
-        "然后先来解释一下这个是什么意思。",
-        "就是现在那个在 Steam 上应该还是个 demo。",
-        "因为 Animation 它使用它的 value 这个状态",
-        "然后呢，我也在这儿给它设置为 repeat。",
-        "然后你给它传进去之后"
-      ],
-      "evidence": "连接词和助词等功能词有一定使用",
-      "confidence": 0.7
-    },
-    "emotion_word_frequency": {
-      "key": "emotion_word_frequency",
-      "label": "情绪词频率",
-      "value": "低频，仅在闲聊部分使用情绪词",
-      "examples": [
+        "稍等一下。诶，弄不动了。哦，我知道了。",
         "我真是受不了，这真的有点离谱。",
         "哎呀，这就被抓了，对对对。",
-        "抄太少，抄太少，全自己写不行。"
+        "抄太少，抄太少，全自己写不行。",
+        "现在好了。"
       ],
-      "evidence": "教学部分无情绪词，闲聊部分少量使用",
+      "evidence": "教学讲解部分情绪表达克制，闲聊或临场反应中出现少量语气词和情绪词。",
       "confidence": 0.8
+    },
+    "readability_metrics": {
+      "key": "readability_metrics",
+      "label": "可读性指标",
+      "value": "Flesch-Kincaid 与 Gunning Fog 为英文指标，中文场景下只能近似判断；样本解释步骤清楚、口语停顿多，但部分技术长句增加阅读难度，可读性中等。",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
+        "大家现在可以先不用管。",
+        "当你只有一个动画的时候，你里边只创建一个可以这样动的东西的，你可以混入那个 SingleTickerProviderStateMixin。",
+        "然后我们在监听器里边 setState。"
+      ],
+      "evidence": "文本按解释步骤推进，短句降低理解门槛，但技术概念和复合长句使阅读难度上升。",
+      "confidence": 0.75
+    },
+    "interpersonal_markers": {
+      "key": "interpersonal_markers",
+      "label": "人际交往标记",
+      "value": "礼貌策略主要体现为降低听众理解压力的表达；免责声明和模糊语包括“大家可以不用管”“一般”“应该”等；常用面向听众的第二人称和引导式提问。",
+      "examples": [
+        "大家现在可以先不用管。",
+        "你只需要知道，当我们需要在某个组件内部使用状态、使用动画的时候",
+        "这是什么？",
+        "什么意思呢？就是让它动画重复播放。",
+        "大部分情况下应该是可以做到 60 帧的。"
+      ],
+      "evidence": "样本中经常通过面向听众的缓和语、模糊判断和设问解释来组织教学互动。",
+      "confidence": 0.85
     }
   },
   "raw_stats": {
@@ -265,5 +91,5 @@
     "total_chars": 2002
   },
   "source_length_chars": 2002,
-  "analysis_version": 1
+  "analysis_version": 2
 }
