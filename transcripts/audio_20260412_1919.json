@@ -1,0 +1,1464 @@
+{
+  "audio": "transcripts\\audio\\audio_20260412_1919.wav",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 662.848,
+  "segments": [
+    {
+      "start": 0.98,
+      "end": 16.29,
+      "text": "我们稍微等一会",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 116.46,
+      "end": 120.33,
+      "text": "现在好了",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 120.33,
+      "end": 125.87,
+      "text": "然后先来解释一下这个是什么意思",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 125.87,
+      "end": 126.95,
+      "text": "我们这里",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 126.95,
+      "end": 129.75,
+      "text": "一般我们这个",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 129.75,
+      "end": 135.19,
+      "text": "这个animation这个东西是放在我们这个状态类里边",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 135.19,
+      "end": 137.75,
+      "text": "给它当成一个属线来好",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 137.75,
+      "end": 141.03,
+      "text": "这个类它是继承在animation类",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 141.03,
+      "end": 145.03,
+      "text": "这个animation呢它是一个抽象类",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 145.03,
+      "end": 155.27,
+      "text": "还有地板",
+      "avg_logprob": -0.4519,
+      "no_speech_prob": 0.155,
+      "compression_ratio": 1.3981
+    },
+    {
+      "start": 155.31,
+      "end": 156.23,
+      "text": "是什么意思",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 158.23,
+      "end": 159.95,
+      "text": "大部分的地方都需要",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 159.95,
+      "end": 161.71,
+      "text": "我们需要用的动画的地方呢",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 161.71,
+      "end": 165.51,
+      "text": "它是只需要一个它是animation就可以",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 165.51,
+      "end": 166.75,
+      "text": "因为animation有",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 166.75,
+      "end": 170.11,
+      "text": "它使用它的value这个概态",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 170.11,
+      "end": 171.07,
+      "text": "得到当前的值",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 171.07,
+      "end": 176.63,
+      "text": "它就可以来获得它这个动画",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 176.63,
+      "end": 178.27,
+      "text": "它实际应该放的位置",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 179.47,
+      "end": 182.55,
+      "text": "然后呢我们在这儿创建了它",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 182.55,
+      "end": 183.99,
+      "text": "它的这里的实现",
+      "avg_logprob": -0.3967,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3234
+    },
+    {
+      "start": 184.07,
+      "end": 186.27,
+      "text": "是一个过渡韩式里边这个属线",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 186.27,
+      "end": 189.15,
+      "text": "就是来弄它的控制的时长",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 189.15,
+      "end": 191.19,
+      "text": "就是说默认情况下",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 191.19,
+      "end": 193.99,
+      "text": "我们直接创建的一个animation control的",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 193.99,
+      "end": 196.31,
+      "text": "它的取值是从0.0",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 196.31,
+      "end": 197.99,
+      "text": "逐渐变化到1.1",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 197.99,
+      "end": 199.15,
+      "text": "不是1.0",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 199.15,
+      "end": 200.59,
+      "text": "这个是一个现行运化",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 200.59,
+      "end": 203.23,
+      "text": "大家可以看到这个方块移动呢",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 203.23,
+      "end": 206.11,
+      "text": "它是比较规则",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 206.11,
+      "end": 212.7,
+      "text": "就是随时间它是一个现行运动",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 212.7,
+      "end": 215.62,
+      "text": "然后这个参数是什么呢",
+      "avg_logprob": -0.2997,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.2788
+    },
+    {
+      "start": 215.62,
+      "end": 216.58,
+      "text": "这个参数",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 217.78,
+      "end": 219.62,
+      "text": "大家现在可以滚管",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 219.62,
+      "end": 220.7,
+      "text": "你只需要知道",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 220.7,
+      "end": 222.82,
+      "text": "当我们需要在某一个组建内部",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 222.82,
+      "end": 225.3,
+      "text": "使用状态的时候",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 225.3,
+      "end": 226.22,
+      "text": "就是使用动画的时候",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 226.22,
+      "end": 229.22,
+      "text": "我们需要给这一个状态类",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 229.22,
+      "end": 230.9,
+      "text": "混入这么一个东西",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 232.1,
+      "end": 236.42,
+      "text": "叫什么tk provider",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 236.42,
+      "end": 238.98,
+      "text": "这个混入语法我们之前也没讲过",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 238.98,
+      "end": 239.82,
+      "text": "但是也没事",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 239.82,
+      "end": 243.87,
+      "text": "大家也不用管",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 243.87,
+      "end": 245.59,
+      "text": "当我们只有一个",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 245.59,
+      "end": 247.23,
+      "text": "就是只有一个动画的时候",
+      "avg_logprob": -0.2872,
+      "no_speech_prob": 0.0032,
+      "compression_ratio": 1.428
+    },
+    {
+      "start": 247.23,
+      "end": 250.59,
+      "text": "里边只创建一个可以",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 250.59,
+      "end": 252.39,
+      "text": "是这样动的东西的",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 252.39,
+      "end": 255.19,
+      "text": "你可以混入那个single的",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 255.19,
+      "end": 258.36,
+      "text": "之前的那个single",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 258.36,
+      "end": 260.0,
+      "text": "当里边有两个",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 260.0,
+      "end": 261.16,
+      "text": "或者是第三个动画的时候",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 261.16,
+      "end": 262.64,
+      "text": "我们需要混入",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 262.64,
+      "end": 264.72,
+      "text": "不是这个single",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 264.72,
+      "end": 268.01,
+      "text": "然后呢",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 268.01,
+      "end": 269.21,
+      "text": "我也在这儿",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 269.21,
+      "end": 271.65,
+      "text": "给它设置为repeat",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 271.65,
+      "end": 272.17,
+      "text": "什么意思呢",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 272.17,
+      "end": 274.97,
+      "text": "就是让它动画重复过放",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 274.97,
+      "end": 277.97,
+      "text": "当它动画执行到莫韦的时候",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 277.97,
+      "end": 278.93,
+      "text": "revolve",
+      "avg_logprob": -0.4073,
+      "no_speech_prob": 0.0011,
+      "compression_ratio": 1.3089
+    },
+    {
+      "start": 278.93,
+      "end": 283.73,
+      "text": "就是把这个值从1再变回成0",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 283.73,
+      "end": 287.09,
+      "text": "然后给它添加一个坚定器",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 287.09,
+      "end": 289.45,
+      "text": "每当它这个值变换的时候",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 289.45,
+      "end": 292.65,
+      "text": "它都会给你标用你添加的坚定器",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 292.65,
+      "end": 296.05,
+      "text": "然后我们在坚定器里边30d的",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 296.05,
+      "end": 297.09,
+      "text": "因为我们30d的",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 297.09,
+      "end": 301.21,
+      "text": "并且我们这个页面里边依赖的值",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 301.21,
+      "end": 301.85,
+      "text": "它就有value",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 301.85,
+      "end": 303.33,
+      "text": "这是变换的",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 303.33,
+      "end": 305.57,
+      "text": "所以它这个就会被重绘",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 305.57,
+      "end": 306.25,
+      "text": "重绘之后",
+      "avg_logprob": -0.2512,
+      "no_speech_prob": 0.0144,
+      "compression_ratio": 1.3717
+    },
+    {
+      "start": 306.25,
+      "end": 310.25,
+      "text": "那么就可以看到一个流畅动画效果",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 310.25,
+      "end": 312.25,
+      "text": "大部分情况下",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 312.25,
+      "end": 315.05,
+      "text": "应该是可以做到60帧的",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 315.05,
+      "end": 318.49,
+      "text": "就是",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 326.86,
+      "end": 329.02,
+      "text": "只要你这个计算没有特别复杂",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 329.02,
+      "end": 331.9,
+      "text": "或者这个页面没有特别特别难",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 331.9,
+      "end": 334.98,
+      "text": "那么你在打成安卓包之后呢",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 334.98,
+      "end": 341.94,
+      "text": "它是可以做到60帧的",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 341.94,
+      "end": 351.22,
+      "text": "然后稍微完善一下",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 351.22,
+      "end": 351.62,
+      "text": "别抗",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 351.62,
+      "end": 352.62,
+      "text": "你就把我",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 352.62,
+      "end": 356.65,
+      "text": "你就把我闻到",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 356.65,
+      "end": 358.05,
+      "text": "武尚字",
+      "avg_logprob": -0.3281,
+      "no_speech_prob": 0.0648,
+      "compression_ratio": 1.3524
+    },
+    {
+      "start": 359.05,
+      "end": 361.05,
+      "text": "你负责打字",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 368.29,
+      "end": 375.18,
+      "text": "皇家打打字弯",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 379.02,
+      "end": 380.62,
+      "text": "该写一个AI插件的",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 380.62,
+      "end": 382.02,
+      "text": "你说什么他写什么",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 382.02,
+      "end": 393.38,
+      "text": "默认情况下",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 393.38,
+      "end": 401.54,
+      "text": "就是我们是",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 401.54,
+      "end": 402.94,
+      "text": "它是一个抽象类",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 402.94,
+      "end": 407.82,
+      "text": "我们需要创建一个它具体的实力",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 407.82,
+      "end": 409.02,
+      "text": "一般情况下",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 409.02,
+      "end": 410.72,
+      "text": "我们只能用",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 410.72,
+      "end": 413.22,
+      "text": "animation control的",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 413.22,
+      "end": 414.42,
+      "text": "我们也不是只能用",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 414.42,
+      "end": 417.02,
+      "text": "就是说你用这个类",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 417.02,
+      "end": 419.02,
+      "text": "创建出来的animation蹲向",
+      "avg_logprob": -0.3315,
+      "no_speech_prob": 0.0077,
+      "compression_ratio": 1.2974
+    },
+    {
+      "start": 419.02,
+      "end": 422.22,
+      "text": "你就可以控制它的启动",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 422.22,
+      "end": 424.22,
+      "text": "停止和以及其他东西的",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 424.22,
+      "end": 425.82,
+      "text": "比如说",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 425.82,
+      "end": 428.62,
+      "text": "当你调用它这个函数的时候",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 428.62,
+      "end": 430.82,
+      "text": "那么它这个值就会开始变化",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 430.82,
+      "end": 431.82,
+      "text": "当你调用stop",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 431.82,
+      "end": 434.12,
+      "text": "那么这个值就停止变化",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 434.12,
+      "end": 435.42,
+      "text": "然后还有这些方法",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 435.42,
+      "end": 438.29,
+      "text": "这个的",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 438.29,
+      "end": 438.89,
+      "text": "默认情况下",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 438.89,
+      "end": 439.49,
+      "text": "你创建的时候",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 439.49,
+      "end": 442.69,
+      "text": "它就不会直接给你启动了",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 442.69,
+      "end": 443.89,
+      "text": "然后",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 443.89,
+      "end": 446.89,
+      "text": "当你需要改变它这个值是",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 446.89,
+      "end": 448.79,
+      "text": "在上级和下级的时候呢",
+      "avg_logprob": -0.263,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.4431
+    },
+    {
+      "start": 448.79,
+      "end": 451.29,
+      "text": "就给它传它的",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 451.29,
+      "end": 452.39,
+      "text": "下级上级",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 452.39,
+      "end": 453.09,
+      "text": "比较长一些",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 453.09,
+      "end": 454.89,
+      "text": "那么它就会按照你的要求",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 454.89,
+      "end": 457.59,
+      "text": "让这个值是限定变化",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 457.59,
+      "end": 461.59,
+      "text": "记住我们目前都是一个限定变化",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 461.59,
+      "end": 464.49,
+      "text": "之后我们可以给它添加一些曲线",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 464.49,
+      "end": 494.09,
+      "text": "控制器",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 494.09,
+      "end": 496.19,
+      "text": "然后我们就",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 496.19,
+      "end": 498.29,
+      "text": "就要来整一些划活",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 498.29,
+      "end": 499.59,
+      "text": "只是这样的",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 499.59,
+      "end": 512.7,
+      "text": "那肯定是不能满足我们的要求",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 512.7,
+      "end": 514.5,
+      "text": "我们目前是把它",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 514.5,
+      "end": 516.8,
+      "text": "每一次它值变化的时候",
+      "avg_logprob": -0.1903,
+      "no_speech_prob": 0.0033,
+      "compression_ratio": 1.4191
+    },
+    {
+      "start": 516.8,
+      "end": 518.7,
+      "text": "我们第二用Volafel的函数",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 518.7,
+      "end": 521.9,
+      "text": "Sales值让它重新汇制",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 521.9,
+      "end": 523.1,
+      "text": "这个呢",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 523.1,
+      "end": 524.3,
+      "text": "写法",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 524.3,
+      "end": 526.0,
+      "text": "不是那么的优雅",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 526.0,
+      "end": 527.5,
+      "text": "不是那么的优美",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 527.5,
+      "end": 528.3,
+      "text": "因为",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 528.3,
+      "end": 529.7,
+      "text": "当你这个",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 529.7,
+      "end": 531.2,
+      "text": "英雄还有其他地方",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 531.2,
+      "end": 534.3,
+      "text": "他也要控制他这个状态的时候",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 534.3,
+      "end": 536.0,
+      "text": "还有可能让这个",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 536.0,
+      "end": 538.8,
+      "text": "计算的比较的复杂",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 538.8,
+      "end": 541.1,
+      "text": "我们更好的办法",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 541.1,
+      "end": 543.9,
+      "text": "是使用",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 543.9,
+      "end": 546.6,
+      "text": "animation widget的一个组件",
+      "avg_logprob": -0.2909,
+      "no_speech_prob": 0.0014,
+      "compression_ratio": 1.2088
+    },
+    {
+      "start": 546.6,
+      "end": 553.07,
+      "text": "来进行",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 553.07,
+      "end": 566.27,
+      "text": "在",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 566.27,
+      "end": 583.38,
+      "text": "这个组件",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 583.38,
+      "end": 590.51,
+      "text": "当我们使用这个组件的时候",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 590.51,
+      "end": 593.61,
+      "text": "我们需要把我们之前创建的animation对象",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 593.61,
+      "end": 594.71,
+      "text": "给它传递进行",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 594.71,
+      "end": 597.91,
+      "text": "这个它接受的函数就是一个animation",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 597.91,
+      "end": 599.51,
+      "text": "然后不管你是",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 599.51,
+      "end": 601.41,
+      "text": "它的实际类型是啥都可以",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 601.41,
+      "end": 602.91,
+      "text": "其实",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 602.91,
+      "end": 605.11,
+      "text": "我们在",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 605.11,
+      "end": 608.61,
+      "text": "然后让这个游戏去打开8080",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 608.61,
+      "end": 610.51,
+      "text": "去显示那个",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 610.51,
+      "end": 612.31,
+      "text": "本机型的这个网页",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 612.31,
+      "end": 613.11,
+      "text": "我们在这个地方",
+      "avg_logprob": -0.326,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.3307
+    },
+    {
+      "start": 613.11,
+      "end": 615.41,
+      "text": "其实可以给它传递我们的",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 615.41,
+      "end": 616.71,
+      "text": "实际的犯行参数是什么",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 616.71,
+      "end": 617.81,
+      "text": "就是你这个",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 617.81,
+      "end": 620.01,
+      "text": "里边animation它控制的",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 620.01,
+      "end": 621.01,
+      "text": "变化的值是什么",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 621.01,
+      "end": 624.21,
+      "text": "我们之前是用了一个硬册",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 624.21,
+      "end": 626.71,
+      "text": "我们实际也可以控制它颜色的变化",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 626.71,
+      "end": 627.81,
+      "text": "实际说",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 627.81,
+      "end": 628.71,
+      "text": "硬册说",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 628.71,
+      "end": 631.01,
+      "text": "那么这个类型也自动变化",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 631.01,
+      "end": 633.01,
+      "text": "我们正常用样不传就可以了",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 633.01,
+      "end": 636.57,
+      "text": "它会自动给我推动",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 636.57,
+      "end": 638.97,
+      "text": "然后你给它传进去之后",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 638.97,
+      "end": 641.57,
+      "text": "当你在某个地方控制你的动画",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 641.57,
+      "end": 642.87,
+      "text": "开始进行了",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 642.87,
+      "end": 644.07,
+      "text": "那么这个组件",
+      "avg_logprob": -0.2767,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.484
+    },
+    {
+      "start": 644.07,
+      "end": 646.57,
+      "text": "就会帮你完成",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 646.57,
+      "end": 647.97,
+      "text": "这个页面的重绘",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 647.97,
+      "end": 649.87,
+      "text": "这个部分的重绘",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 649.87,
+      "end": 652.77,
+      "text": "那么就比我们现在这个实际方式",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 652.77,
+      "end": 654.57,
+      "text": "更应该一点",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 654.57,
+      "end": 656.17,
+      "text": "不需要我们手动",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    },
+    {
+      "start": 656.17,
+      "end": 661.64,
+      "text": "来sensitize",
+      "avg_logprob": -0.4426,
+      "no_speech_prob": 0.045,
+      "compression_ratio": 1.0345
+    }
+  ]
+}

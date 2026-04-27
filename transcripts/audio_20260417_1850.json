@@ -1,0 +1,2080 @@
+{
+  "audio": "transcripts\\audio\\audio_20260417_1850.wav",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 548.501375,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "我看喝喝什么粥吧",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 2.0,
+      "end": 4.4,
+      "text": "喝南瓜粥还是喝咸粥",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 7.4,
+      "end": 8.8,
+      "text": "那点皮蛋瘦肉",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 8.8,
+      "end": 10.0,
+      "text": "皮蛋瘦肉是对的",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 10.0,
+      "end": 12.8,
+      "text": "但我上次户戏的时候",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 12.8,
+      "end": 14.6,
+      "text": "也喝了三天皮蛋瘦肉粥",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 14.6,
+      "end": 15.6,
+      "text": "然后又不想喝了",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 17.6,
+      "end": 19.2,
+      "text": "南瓜粥我们还加汤水",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 20.0,
+      "end": 20.6,
+      "text": "加什么",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 20.6,
+      "end": 21.4,
+      "text": "汤水",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 21.4,
+      "end": 22.0,
+      "text": "汤水",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 22.0,
+      "end": 22.8,
+      "text": "也还可以",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 22.8,
+      "end": 23.4,
+      "text": "也还可以",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 23.4,
+      "end": 24.8,
+      "text": "倒是不吃猫吧",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 29.54,
+      "end": 30.34,
+      "text": "对了",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 30.94,
+      "end": 32.34,
+      "text": "然后早上",
+      "avg_logprob": -0.3462,
+      "no_speech_prob": 0.0626,
+      "compression_ratio": 1.4681
+    },
+    {
+      "start": 33.34,
+      "end": 34.74,
+      "text": "配着喝的一般",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 34.74,
+      "end": 37.14,
+      "text": "配那种护米酒或者是豆浆",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 37.14,
+      "end": 38.74,
+      "text": "或者是清酒或者是干净",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 38.74,
+      "end": 39.54,
+      "text": "早上喝酒",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 40.14,
+      "end": 40.94,
+      "text": "清酒",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 41.14,
+      "end": 42.54,
+      "text": "反正酒也不重",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 43.74,
+      "end": 45.94,
+      "text": "就是米酒那个样子",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 45.94,
+      "end": 46.34,
+      "text": "对",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 46.34,
+      "end": 48.34,
+      "text": "很开车很开车",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 49.14,
+      "end": 50.34,
+      "text": "开车",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 50.34,
+      "end": 51.94,
+      "text": "我一开始喝酒就停下来了",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 53.74,
+      "end": 54.34,
+      "text": "这样吗",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 54.34,
+      "end": 54.74,
+      "text": "这样吗",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 54.74,
+      "end": 55.14,
+      "text": "好",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 56.74,
+      "end": 57.34,
+      "text": "说吗",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 58.14,
+      "end": 58.94,
+      "text": "待会喝没事",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 58.94,
+      "end": 59.74,
+      "text": "你们可以待会喝",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 59.74,
+      "end": 60.34,
+      "text": "待会喝",
+      "avg_logprob": -0.4128,
+      "no_speech_prob": 0.0048,
+      "compression_ratio": 1.4368
+    },
+    {
+      "start": 62.93,
+      "end": 64.33,
+      "text": "待会去医院来一趟",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 64.33,
+      "end": 65.13,
+      "text": "喝酒吧",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 65.13,
+      "end": 65.73,
+      "text": "可以",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 65.73,
+      "end": 66.53,
+      "text": "一会喝喝酒",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 66.53,
+      "end": 67.33,
+      "text": "不想喝酒",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 68.33,
+      "end": 69.93,
+      "text": "因为已经有",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 71.13,
+      "end": 72.33,
+      "text": "好久不喝酒",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 72.33,
+      "end": 74.13,
+      "text": "我那个冰箱还有一个",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 75.33,
+      "end": 76.73,
+      "text": "还有一个动态的墙爽",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 77.93,
+      "end": 79.33,
+      "text": "然后上次饭冰箱",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 79.33,
+      "end": 80.93,
+      "text": "饭冰箱还饭到了",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 80.93,
+      "end": 81.33,
+      "text": "不错",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 81.33,
+      "end": 82.13,
+      "text": "然后想了一下",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 82.13,
+      "end": 83.13,
+      "text": "只能一下还是调得很",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 85.73,
+      "end": 86.93,
+      "text": "你对我有什么偏见",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 88.13,
+      "end": 89.73,
+      "text": "尼克最近没有存过酒",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 89.73,
+      "end": 90.53,
+      "text": "这是匪棒",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 90.53,
+      "end": 91.93,
+      "text": "然后我不喜欢喝墙爽",
+      "avg_logprob": -0.4007,
+      "no_speech_prob": 0.002,
+      "compression_ratio": 1.3992
+    },
+    {
+      "start": 92.33,
+      "end": 94.33,
+      "text": "房屋是里有酒的",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 94.93,
+      "end": 95.61,
+      "text": "万一是",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 95.61,
+      "end": 96.73,
+      "text": "万一是蚕色的",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 100.73,
+      "end": 101.73,
+      "text": "你干嘛",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 101.73,
+      "end": 102.93,
+      "text": "傻业",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 102.93,
+      "end": 103.53,
+      "text": "不知道",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 103.53,
+      "end": 104.53,
+      "text": "这是傻业",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 105.93,
+      "end": 106.53,
+      "text": "不用",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 106.53,
+      "end": 107.93,
+      "text": "刚刚买点",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 107.93,
+      "end": 109.73,
+      "text": "买点鸡酒房屋是小的",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 110.73,
+      "end": 111.73,
+      "text": "我觉得你可以",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 111.73,
+      "end": 112.53,
+      "text": "但是",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 113.13,
+      "end": 114.73,
+      "text": "那个可以动起来吗",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 115.73,
+      "end": 116.33,
+      "text": "我们在",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 116.33,
+      "end": 116.93,
+      "text": "动不上",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 116.93,
+      "end": 117.73,
+      "text": "把酒不能动",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 119.53,
+      "end": 121.13,
+      "text": "能动上的那墙爽多少",
+      "avg_logprob": -0.5697,
+      "no_speech_prob": 0.0013,
+      "compression_ratio": 1.3315
+    },
+    {
+      "start": 122.53,
+      "end": 124.33,
+      "text": "它是冰水很红布的状态是没有",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 126.04,
+      "end": 127.04,
+      "text": "好累啊",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 127.04,
+      "end": 128.44,
+      "text": "这还蛮厉害的",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 128.44,
+      "end": 129.84,
+      "text": "春酒已经肯定是都",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 129.84,
+      "end": 130.44,
+      "text": "动不上了",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 130.44,
+      "end": 132.84,
+      "text": "我经常多年的操久气了",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 133.44,
+      "end": 134.04,
+      "text": "第二天",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 134.84,
+      "end": 142.88,
+      "text": "要不然每天出办公",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 142.88,
+      "end": 144.88,
+      "text": "最后就是选择演出",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 144.88,
+      "end": 145.68,
+      "text": "聊聊聊",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 147.28,
+      "end": 147.88,
+      "text": "那",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 148.28,
+      "end": 149.68,
+      "text": "那不上课了说实",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 151.48,
+      "end": 152.08,
+      "text": "带过去",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 153.88,
+      "end": 154.88,
+      "text": "装在杯子里面",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 154.88,
+      "end": 156.28,
+      "text": "凌人知道那是酒",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 159.09,
+      "end": 159.69,
+      "text": "我最喜欢",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 159.69,
+      "end": 160.49,
+      "text": "恭喜",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 160.49,
+      "end": 161.89,
+      "text": "我高龙的时候",
+      "avg_logprob": -0.5909,
+      "no_speech_prob": 0.0008,
+      "compression_ratio": 1.249
+    },
+    {
+      "start": 164.76,
+      "end": 165.56,
+      "text": "我高龙的同学",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 165.56,
+      "end": 167.16,
+      "text": "他往他那个水杯里面",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 167.76,
+      "end": 168.56,
+      "text": "放白酒",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 169.36,
+      "end": 169.96,
+      "text": "有啊",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 170.96,
+      "end": 171.56,
+      "text": "一天",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 173.36,
+      "end": 173.96,
+      "text": "小阿姨",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 174.56,
+      "end": 176.16,
+      "text": "我们高龙还有人带啤酒",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 176.16,
+      "end": 177.56,
+      "text": "但是那个味道太重了",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 177.56,
+      "end": 178.76,
+      "text": "经常被叫到主任",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 178.96,
+      "end": 180.16,
+      "text": "还是搞东西",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 180.56,
+      "end": 181.16,
+      "text": "这东西",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 181.16,
+      "end": 181.96,
+      "text": "那啤酒",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 181.96,
+      "end": 183.36,
+      "text": "我们白酒可以动手啊",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 183.36,
+      "end": 184.36,
+      "text": "不是别人白",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 184.36,
+      "end": 185.56,
+      "text": "我们是别人白的",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 186.36,
+      "end": 186.76,
+      "text": "什么",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 187.56,
+      "end": 189.16,
+      "text": "我们那边有白酒杯",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 189.76,
+      "end": 191.16,
+      "text": "那酒也不重吗",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 191.16,
+      "end": 191.76,
+      "text": "重啊",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 191.76,
+      "end": 192.36,
+      "text": "对啊",
+      "avg_logprob": -0.4318,
+      "no_speech_prob": 0.0006,
+      "compression_ratio": 1.3733
+    },
+    {
+      "start": 192.76,
+      "end": 194.76,
+      "text": "那老师一闻就知道了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 194.96,
+      "end": 195.36,
+      "text": "哎呀",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 195.36,
+      "end": 196.76,
+      "text": "这就被抓了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 196.96,
+      "end": 197.56,
+      "text": "对对对",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 199.96,
+      "end": 201.16,
+      "text": "这我喜欢喝",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 201.16,
+      "end": 201.76,
+      "text": "这么喜欢喝吗",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 201.76,
+      "end": 202.96,
+      "text": "一开始别想干的了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 204.96,
+      "end": 205.56,
+      "text": "陕哥",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 210.78,
+      "end": 212.18,
+      "text": "所以我们当时比较超越好",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 212.18,
+      "end": 212.78,
+      "text": "还有香秀",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 212.78,
+      "end": 213.18,
+      "text": "来",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 213.78,
+      "end": 214.18,
+      "text": "好",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 214.38,
+      "end": 214.98,
+      "text": "牛鱼",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 215.18,
+      "end": 215.78,
+      "text": "牛鱼",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 216.58,
+      "end": 217.38,
+      "text": "你不知道为什么",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 217.58,
+      "end": 218.18,
+      "text": "怎么很",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 218.18,
+      "end": 219.18,
+      "text": "我们学校的超市",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 219.18,
+      "end": 221.78,
+      "text": "在我们进来一年之后就关门了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 222.58,
+      "end": 223.58,
+      "text": "之后就没开过了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 224.38,
+      "end": 224.94,
+      "text": "失败了",
+      "avg_logprob": -0.4667,
+      "no_speech_prob": 0.0042,
+      "compression_ratio": 1.3289
+    },
+    {
+      "start": 225.18,
+      "end": 225.98,
+      "text": "我们也是",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 227.18,
+      "end": 227.98,
+      "text": "懒得超市入门",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 227.98,
+      "end": 228.78,
+      "text": "只卖酒",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 228.98,
+      "end": 229.58,
+      "text": "是吗",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 229.58,
+      "end": 230.58,
+      "text": "懒得超市入门",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 230.58,
+      "end": 231.18,
+      "text": "有酒",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 231.38,
+      "end": 232.18,
+      "text": "有",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 232.18,
+      "end": 233.18,
+      "text": "有啤酒",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 234.18,
+      "end": 235.38,
+      "text": "我们一开始上通卖",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 235.38,
+      "end": 236.18,
+      "text": "但是",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 236.78,
+      "end": 237.98,
+      "text": "后来好像有文件",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 237.98,
+      "end": 238.98,
+      "text": "就只卖水",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 238.98,
+      "end": 240.38,
+      "text": "到最后水都卖不了",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 247.99,
+      "end": 249.59,
+      "text": "货价上后也忘去",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 249.59,
+      "end": 250.99,
+      "text": "一货价都控旋水",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 250.99,
+      "end": 252.39,
+      "text": "在谁帮到就",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 253.19,
+      "end": 254.39,
+      "text": "让我好像也听到了",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 255.59,
+      "end": 256.79,
+      "text": "听到我学校里有交友",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 260.46,
+      "end": 261.06,
+      "text": "哇",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 262.06,
+      "end": 262.26,
+      "text": "哎呦",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 262.26,
+      "end": 263.46,
+      "text": "这是相当沈发的文件",
+      "avg_logprob": -0.4132,
+      "no_speech_prob": 0.0007,
+      "compression_ratio": 1.3805
+    },
+    {
+      "start": 263.46,
+      "end": 264.26,
+      "text": "反正是",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 265.06,
+      "end": 267.26,
+      "text": "中学中学内不允许的失礼形态",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 272.31,
+      "end": 273.31,
+      "text": "所以去武大吗",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 273.71,
+      "end": 274.91,
+      "text": "几二十可以免费钱",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 274.91,
+      "end": 275.51,
+      "text": "去武大",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 275.71,
+      "end": 276.31,
+      "text": "都会有",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 276.31,
+      "end": 277.71,
+      "text": "那怎么给老板去去武大",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 277.71,
+      "end": 278.51,
+      "text": "这家开花吗",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 278.51,
+      "end": 278.91,
+      "text": "什么啊",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 278.91,
+      "end": 279.91,
+      "text": "没有没有",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 279.91,
+      "end": 280.71,
+      "text": "三月份的话",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 280.71,
+      "end": 281.51,
+      "text": "还有什么可",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 281.91,
+      "end": 282.91,
+      "text": "那有什么可参观的",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 282.91,
+      "end": 283.91,
+      "text": "可以参",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 283.91,
+      "end": 284.71,
+      "text": "参观",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 285.31,
+      "end": 287.11,
+      "text": "雷军同款拍照图",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 287.51,
+      "end": 288.71,
+      "text": "可以参观图书馆",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 290.71,
+      "end": 291.31,
+      "text": "还真是",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 291.31,
+      "end": 291.91,
+      "text": "还真是",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 291.91,
+      "end": 292.51,
+      "text": "还真是",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 293.51,
+      "end": 294.71,
+      "text": "这图书馆要拧啥吗",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 295.31,
+      "end": 295.91,
+      "text": "要挠啥",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 295.91,
+      "end": 296.51,
+      "text": "应该要",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 296.51,
+      "end": 296.91,
+      "text": "要",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 296.91,
+      "end": 297.31,
+      "text": "要",
+      "avg_logprob": -0.4189,
+      "no_speech_prob": 0.0047,
+      "compression_ratio": 1.5
+    },
+    {
+      "start": 297.51,
+      "end": 298.11,
+      "text": "要的",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 298.91,
+      "end": 299.71,
+      "text": "何一伟",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 299.71,
+      "end": 300.31,
+      "text": "何一伟",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 300.71,
+      "end": 301.91,
+      "text": "你在影摄什么",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 301.91,
+      "end": 302.31,
+      "text": "没有",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 302.31,
+      "end": 303.71,
+      "text": "人那个有点眼",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 303.71,
+      "end": 304.71,
+      "text": "没有影摄",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 304.71,
+      "end": 305.71,
+      "text": "你在影摄什么",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 306.51,
+      "end": 307.91,
+      "text": "已经调明了",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 308.71,
+      "end": 311.8,
+      "text": "你叫你帮忙",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 314.4,
+      "end": 315.4,
+      "text": "一个套子",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 315.4,
+      "end": 316.0,
+      "text": "套子",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 316.0,
+      "end": 317.8,
+      "text": "女花鸟叫你帮忙",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 317.8,
+      "end": 318.4,
+      "text": "牛逼",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 319.0,
+      "end": 319.6,
+      "text": "牛逼",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 320.0,
+      "end": 321.6,
+      "text": "拍完照等就记得有资格",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 328.93,
+      "end": 329.93,
+      "text": "相保养了",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 331.13,
+      "end": 332.53,
+      "text": "想起武大保养了",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 332.93,
+      "end": 333.73,
+      "text": "原来是",
+      "avg_logprob": -0.5822,
+      "no_speech_prob": 0.0021,
+      "compression_ratio": 1.3989
+    },
+    {
+      "start": 334.73,
+      "end": 336.73,
+      "text": "我把这支还可以啊",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 336.73,
+      "end": 337.73,
+      "text": "我把这支",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 337.73,
+      "end": 343.14,
+      "text": "反正比山大",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 343.74,
+      "end": 344.54,
+      "text": "差不多吧",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 344.54,
+      "end": 345.54,
+      "text": "比山好一点",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 347.14,
+      "end": 348.94,
+      "text": "这台机也不是强强的",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 356.34,
+      "end": 358.54,
+      "text": "从几何时武汉大学的医学",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 358.54,
+      "end": 359.14,
+      "text": "还在我",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 359.54,
+      "end": 362.94,
+      "text": "志愿里冲的那一堆",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 363.54,
+      "end": 364.94,
+      "text": "我现在都吃完不到",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 365.34,
+      "end": 366.94,
+      "text": "武大口香特别高",
+      "avg_logprob": -0.4364,
+      "no_speech_prob": 0.0059,
+      "compression_ratio": 1.2343
+    },
+    {
+      "start": 367.94,
+      "end": 370.74,
+      "text": "96个平成志愿",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 370.74,
+      "end": 371.74,
+      "text": "这不随便报报",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 371.74,
+      "end": 373.74,
+      "text": "第一个都敢报北大清华",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 373.74,
+      "end": 374.74,
+      "text": "都敢报十多个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 375.54,
+      "end": 377.34,
+      "text": "清华北大在我的志愿里",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 377.34,
+      "end": 378.14,
+      "text": "最后几个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 379.34,
+      "end": 379.74,
+      "text": "刀底",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 379.74,
+      "end": 380.34,
+      "text": "刀底",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 386.74,
+      "end": 387.34,
+      "text": "96个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 387.34,
+      "end": 389.34,
+      "text": "但是田了50个就田了50个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 389.34,
+      "end": 390.14,
+      "text": "你还田了50个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 390.14,
+      "end": 392.14,
+      "text": "我只田了20个",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 393.54,
+      "end": 394.94,
+      "text": "第19个是北大",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 394.94,
+      "end": 395.94,
+      "text": "第20个是清华",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 395.94,
+      "end": 397.14,
+      "text": "你们的仗格还挺好",
+      "avg_logprob": -0.354,
+      "no_speech_prob": 0.0039,
+      "compression_ratio": 1.4247
+    },
+    {
+      "start": 398.14,
+      "end": 399.54,
+      "text": "昨年我们还是分了你",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 400.74,
+      "end": 401.74,
+      "text": "最后一年分了你",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 403.14,
+      "end": 404.34,
+      "text": "我们改个长了点",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 444.88,
+      "end": 445.28,
+      "text": "谢谢",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 452.96,
+      "end": 455.36,
+      "text": "确实夏天吃肥有点热",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 457.36,
+      "end": 458.76,
+      "text": "下次该在转转",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 458.76,
+      "end": 459.96,
+      "text": "看还有没有另外一家",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 460.76,
+      "end": 461.56,
+      "text": "下个周五",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 463.16,
+      "end": 463.96,
+      "text": "成功吗",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 465.36,
+      "end": 466.56,
+      "text": "许多爱激烂性的成功",
+      "avg_logprob": -0.3834,
+      "no_speech_prob": 0.0056,
+      "compression_ratio": 1.189
+    },
+    {
+      "start": 486.79,
+      "end": 488.19,
+      "text": "晚安时间一天都不着晚了",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 488.79,
+      "end": 489.79,
+      "text": "也比着孤寒",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 491.19,
+      "end": 493.39,
+      "text": "刚才我们本来那是偏偏马层性",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 497.5,
+      "end": 498.3,
+      "text": "发音不错",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 498.9,
+      "end": 500.3,
+      "text": "智能转",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 501.1,
+      "end": 501.7,
+      "text": "是吧",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 501.7,
+      "end": 503.3,
+      "text": "但是我整个一智能转",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 503.3,
+      "end": 504.3,
+      "text": "智能转是吧",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 505.3,
+      "end": 505.9,
+      "text": "晚安",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 507.5,
+      "end": 508.5,
+      "text": "晚安要百分之十",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 509.1,
+      "end": 509.7,
+      "text": "真好",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 518.26,
+      "end": 519.66,
+      "text": "本来能通计歌的",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 520.26,
+      "end": 520.66,
+      "text": "是吧",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 520.66,
+      "end": 521.86,
+      "text": "计算一课就行",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 521.86,
+      "end": 522.46,
+      "text": "哇",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 522.46,
+      "end": 522.86,
+      "text": "4S",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 522.86,
+      "end": 524.86,
+      "text": "那个语言在清道这些",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 524.86,
+      "end": 525.46,
+      "text": "对的",
+      "avg_logprob": -0.5898,
+      "no_speech_prob": 0.0031,
+      "compression_ratio": 1.277
+    },
+    {
+      "start": 526.46,
+      "end": 527.46,
+      "text": "那一百之三十",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 527.46,
+      "end": 528.46,
+      "text": "咱们百之四十",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 528.46,
+      "end": 529.06,
+      "text": "好",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 529.06,
+      "end": 529.86,
+      "text": "只有转到这里",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 529.86,
+      "end": 531.66,
+      "text": "然后第二年就改成百之三十",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 532.06,
+      "end": 532.86,
+      "text": "看得好吗",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 532.86,
+      "end": 533.46,
+      "text": "不错",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 533.46,
+      "end": 533.86,
+      "text": "不错",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 534.86,
+      "end": 535.46,
+      "text": "简陋",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 539.27,
+      "end": 540.07,
+      "text": "吃完了吗",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 540.07,
+      "end": 540.87,
+      "text": "吃完了了",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 541.67,
+      "end": 542.27,
+      "text": "好吧",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    },
+    {
+      "start": 544.48,
+      "end": 544.88,
+      "text": "谢谢",
+      "avg_logprob": -0.5112,
+      "no_speech_prob": 0.0037,
+      "compression_ratio": 1.2137
+    }
+  ]
+}

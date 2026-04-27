@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//d/project/voice/mode3updateTry/**)",
-      "Bash(python:*)"
-    ]
-  }
-}

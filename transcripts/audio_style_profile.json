@@ -1,0 +1,269 @@
+{
+  "characteristics": {
+    "sentence_length": {
+      "key": "sentence_length",
+      "label": "句子长度模式",
+      "value": "长短句混合",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
+        "大家现在可以先不用管。"
+      ],
+      "evidence": "既有短句也有长句，长短句交替使用",
+      "confidence": 0.9
+    },
+    "punctuation_style": {
+      "key": "punctuation_style",
+      "label": "标点与情绪表达",
+      "value": "混合使用句号和逗号，偶尔使用问号",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "这是什么？",
+        "然后呢，我也在这儿给它设置为 repeat。",
+        "可以参观图书馆。"
+      ],
+      "evidence": "句号和逗号为主，问号偶尔出现",
+      "confidence": 0.8
+    },
+    "formality_level": {
+      "key": "formality_level",
+      "label": "正式程度",
+      "value": "混合正式与非正式",
+      "examples": [
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
+        "那怎么做呢，多抄点，抄点。",
+        "抄太少，抄太少，全自己写不行。",
+        "我真是受不了，这真的有点离谱。"
+      ],
+      "evidence": "教学部分较正式，闲聊部分非常口语化",
+      "confidence": 0.9
+    },
+    "logical_connectors": {
+      "key": "logical_connectors",
+      "label": "逻辑连接词使用",
+      "value": "常用'然后'、'就是'、'因为'等连接词",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "就是现在那个在 Steam 上应该还是个 demo。",
+        "因为 Animation 它使用它的 value 这个状态，得到当前的值，它就可以来获得它这个动画实际应该放的位置。",
+        "然后呢，我也在这儿给它设置为 repeat。",
+        "然后你给它传进去之后，当你在某个地方控制你的动画开始进行了，那么这个组件就会帮你完成这个页面的重绘。"
+      ],
+      "evidence": "频繁使用连接词来组织语句",
+      "confidence": 0.85
+    },
+    "response_completeness": {
+      "key": "response_completeness",
+      "label": "回答详略程度",
+      "value": "完整句子与片段混合",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "抄太少，抄太少，全自己写不行。",
+        "可以参观图书馆。",
+        "96 个平行志愿，这不随便报报。"
+      ],
+      "evidence": "既有完整句子也有口语片段",
+      "confidence": 0.8
+    },
+    "topic_transition": {
+      "key": "topic_transition",
+      "label": "话题转换方式",
+      "value": "自然过渡与突兀切换并存",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "对了，然后早上配着喝的一般是那种米酒或者是豆浆。",
+        "所以去武大吗？",
+        "那有什么可参观的？",
+        "96 个平行志愿，这不随便报报。"
+      ],
+      "evidence": "教学部分过渡自然，闲聊部分话题跳跃",
+      "confidence": 0.75
+    },
+    "message_structure": {
+      "key": "message_structure",
+      "label": "消息结构（单行/多行）",
+      "value": "混合使用简单句和复杂句",
+      "examples": [
+        "现在好了。",
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "这个类它是继承自 Animation 类，这个 Animation 呢，它是一个抽象类。",
+        "那怎么做呢，多抄点，抄点。",
+        "我真是受不了，这真的有点离谱。"
+      ],
+      "evidence": "结构多样，既有简单句也有复杂句",
+      "confidence": 0.85
+    },
+    "opener_closer_phrases": {
+      "key": "opener_closer_phrases",
+      "label": "惯用开头/结尾语",
+      "value": "较少使用固定开头结尾短语",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "对了，然后早上配着喝的一般是那种米酒或者是豆浆。",
+        "所以去武大吗？",
+        "96 个平行志愿，这不随便报报。"
+      ],
+      "evidence": "开头结尾形式多样，无固定模式",
+      "confidence": 0.7
+    },
+    "question_usage": {
+      "key": "question_usage",
+      "label": "疑问句使用习惯",
+      "value": "偶尔使用疑问句",
+      "examples": [
+        "这是什么？",
+        "那有什么可参观的？",
+        "喝南瓜粥还是喝咸粥？",
+        "这样吗？好，说吗。",
+        "可以参观图书馆。"
+      ],
+      "evidence": "疑问句出现频率中等",
+      "confidence": 0.75
+    },
+    "vocabulary_characteristics": {
+      "key": "vocabulary_characteristics",
+      "label": "词汇特点",
+      "value": "口语化词汇与专业术语混合",
+      "examples": [
+        "animation 这个东西",
+        "抄太少，抄太少，全自己写不行。",
+        "我真是受不了，这真的有点离谱。",
+        "AnimationController",
+        "AnimatedWidget"
+      ],
+      "evidence": "教学部分使用专业术语，闲聊部分高度口语化",
+      "confidence": 0.9
+    },
+    "avg_word_length": {
+      "key": "avg_word_length",
+      "label": "平均词长",
+      "value": "约 1.5 字/词，中文单字词和双字词混合",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "抄太少，抄太少，全自己写不行。",
+        "AnimationController",
+        "AnimatedWidget"
+      ],
+      "evidence": "中文词汇以单字和双字为主，夹杂英文术语",
+      "confidence": 0.8
+    },
+    "type_token_ratio": {
+      "key": "type_token_ratio",
+      "label": "Type-token ratio",
+      "value": "0.6 左右，词汇重复度中等",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "然后呢，我也在这儿给它设置为 repeat。",
+        "然后你给它传进去之后",
+        "抄太少，抄太少",
+        "我真是受不了，这真的有点离谱。"
+      ],
+      "evidence": "部分词汇重复使用，但整体词汇多样性尚可",
+      "confidence": 0.7
+    },
+    "avg_sentence_length": {
+      "key": "avg_sentence_length",
+      "label": "平均句长",
+      "value": "约 15 字/句，句子长度差异较大",
+      "examples": [
+        "现在好了。",
+        "然后先来解释一下这个是什么意思。",
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "抄太少，抄太少，全自己写不行。",
+        "我真是受不了，这真的有点离谱。"
+      ],
+      "evidence": "从短句到长句都有使用",
+      "confidence": 0.75
+    },
+    "clause_frequency": {
+      "key": "clause_frequency",
+      "label": "从句频率",
+      "value": "约 1.5 从句/句，中等频率使用从句",
+      "examples": [
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "因为 Animation 它使用它的 value 这个状态，得到当前的值，它就可以来获得它这个动画实际应该放的位置。",
+        "当你调用它这个函数的时候，那么它这个值就会开始变化。",
+        "当你调用 stop，那么这个值就停止变化。",
+        "我们更好的办法，是使用 AnimatedWidget 的一个组件。"
+      ],
+      "evidence": "教学部分较多使用从句，闲聊部分较少",
+      "confidence": 0.7
+    },
+    "pos_distribution": {
+      "key": "pos_distribution",
+      "label": "词性分布",
+      "value": "名词和动词为主，少量形容词和副词",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "我们这里一般这个 animation 这个东西，是放在我们这个状态类里边，给它当成一个属性来用。",
+        "抄太少，抄太少，全自己写不行。",
+        "我真是受不了，这真的有点离谱。",
+        "可以参观图书馆。"
+      ],
+      "evidence": "实词使用频率高于虚词",
+      "confidence": 0.8
+    },
+    "pronoun_ratio": {
+      "key": "pronoun_ratio",
+      "label": "代词比例",
+      "value": "0.2 左右，代词使用频率中等",
+      "examples": [
+        "我们这里一般这个 animation 这个东西",
+        "你只需要知道",
+        "它都会调用你添加的监听器",
+        "我也在这儿给它设置为 repeat",
+        "我真是受不了"
+      ],
+      "evidence": "人称代词和指示代词都有使用",
+      "confidence": 0.75
+    },
+    "article_ratio": {
+      "key": "article_ratio",
+      "label": "冠词比例",
+      "value": "0.0，中文不适用冠词",
+      "examples": [],
+      "evidence": "中文无冠词系统",
+      "confidence": 1.0
+    },
+    "function_word_ratio": {
+      "key": "function_word_ratio",
+      "label": "功能词比例",
+      "value": "0.3 左右，功能词使用比例中等",
+      "examples": [
+        "然后先来解释一下这个是什么意思。",
+        "就是现在那个在 Steam 上应该还是个 demo。",
+        "因为 Animation 它使用它的 value 这个状态",
+        "然后呢，我也在这儿给它设置为 repeat。",
+        "然后你给它传进去之后"
+      ],
+      "evidence": "连接词和助词等功能词有一定使用",
+      "confidence": 0.7
+    },
+    "emotion_word_frequency": {
+      "key": "emotion_word_frequency",
+      "label": "情绪词频率",
+      "value": "低频，仅在闲聊部分使用情绪词",
+      "examples": [
+        "我真是受不了，这真的有点离谱。",
+        "哎呀，这就被抓了，对对对。",
+        "抄太少，抄太少，全自己写不行。"
+      ],
+      "evidence": "教学部分无情绪词，闲聊部分少量使用",
+      "confidence": 0.8
+    }
+  },
+  "raw_stats": {
+    "total_messages": 2,
+    "avg_chars_per_message": 1001.0,
+    "total_chars": 2002
+  },
+  "source_length_chars": 2002,
+  "analysis_version": 1
+}

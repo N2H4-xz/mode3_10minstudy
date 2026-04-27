@@ -35,6 +35,15 @@ CHARACTERISTICS_SPEC: list[dict] = [
     {"key": "opener_closer_phrases",   "label": "惯用开头/结尾语"},
     {"key": "question_usage",          "label": "疑问句使用习惯"},
     {"key": "vocabulary_characteristics", "label": "词汇特点"},
+    {"key": "avg_word_length",         "label": "平均词长"},
+    {"key": "type_token_ratio",        "label": "Type-token ratio"},
+    {"key": "avg_sentence_length",     "label": "平均句长"},
+    {"key": "clause_frequency",        "label": "从句频率"},
+    {"key": "pos_distribution",        "label": "词性分布"},
+    {"key": "pronoun_ratio",           "label": "代词比例"},
+    {"key": "article_ratio",           "label": "冠词比例"},
+    {"key": "function_word_ratio",     "label": "功能词比例"},
+    {"key": "emotion_word_frequency",  "label": "情绪词频率"},
 ]
 
 # key → label 快查

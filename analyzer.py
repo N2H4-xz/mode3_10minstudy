@@ -30,6 +30,7 @@ _SYSTEM_PROMPT = """\
 5. 本分析只提取"怎么说"的格式规律，严禁在 value 和 evidence 字段中出现具体话题名称、专业领域词汇或对用户观点的总结。
 6. 例句（examples）选取原则：优先选能直接展示该格式特征的短例，而非信息量丰富、内容重要的句子；若一句话既能体现格式又带有大量具体内容，尽量选更短、格式特征更纯粹的那句。
 7. "词汇特点"特征只描述语气词、口语化程度、语气助词、连接词等语言结构层面的词汇习惯，不描述用户常用的话题词汇或专业术语。
+8. 对平均词长、type-token ratio、平均句长、从句频率、词性分布、代词/冠词/功能词比例、情绪词频率等统计型特征，value 中给出估算数值和一句简短解释；比例类使用 0.0~1.0，中文语境下冠词不明显时可说明为 0 或不适用。
 
 输出格式：严格输出 JSON，不要有任何其他文字，结构如下：
 {
@@ -53,7 +54,16 @@ _SYSTEM_PROMPT = """\
     "message_structure":       { "value": "...", "examples": [...], "evidence": "...", "confidence": ... },
     "opener_closer_phrases":   { "value": "...", "examples": [...], "evidence": "...", "confidence": ... },
     "question_usage":          { "value": "...", "examples": [...], "evidence": "...", "confidence": ... },
-    "vocabulary_characteristics": { "value": "...", "examples": [...], "evidence": "...", "confidence": ... }
+    "vocabulary_characteristics": { "value": "...", "examples": [...], "evidence": "...", "confidence": ... },
+    "avg_word_length":         { "value": "<估算数值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "type_token_ratio":        { "value": "<0.0~1.0 估算值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "avg_sentence_length":     { "value": "<估算数值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "clause_frequency":        { "value": "<估算数值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "pos_distribution":        { "value": "<主要词性分布估算 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "pronoun_ratio":           { "value": "<0.0~1.0 估算值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "article_ratio":           { "value": "<0.0~1.0 估算值；中文不适用时说明>", "examples": [...], "evidence": "...", "confidence": ... },
+    "function_word_ratio":     { "value": "<0.0~1.0 估算值 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... },
+    "emotion_word_frequency":  { "value": "<估算频率 + 简短解释>", "examples": [...], "evidence": "...", "confidence": ... }
   }
 }
 """

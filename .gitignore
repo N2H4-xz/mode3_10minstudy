@@ -1,0 +1,12 @@
+.env
+.claude/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local audio assets are large and can be regenerated or stored separately.
+*.wav
+
+# Local editor and OS metadata.
+.DS_Store
+Thumbs.db
