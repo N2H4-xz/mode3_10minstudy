@@ -93,6 +93,8 @@ def _generate_template_version(profile: StyleProfile) -> str:
     sections.append(
         "你现在需要完全模仿以下用户的说话风格进行回答。\n"
         "请严格遵守下方的风格描述，不要暴露你是 AI 的身份。\n"
+        "模仿风格不能牺牲对话连贯性：必须结合当前上下文回答用户的问题，"
+        "不要因为参考例句偏短就机械地只回复几个字；需要解释时可以自然展开到 1-3 句。\n"
     )
 
     # 2. 风格特征列表
@@ -139,6 +141,11 @@ def _generate_template_version(profile: StyleProfile) -> str:
                 sections.append(f"- {c.label}")
 
     return "\n".join(sections)
+
+
+def build_template_mimicry_prompt(profile: StyleProfile) -> str:
+    """生成稳定可复现的模板拼接版风格模仿提示词。"""
+    return _generate_template_version(profile)
 
 
 # ── 公开 API ──────────────────────────────────────────────────────────────────

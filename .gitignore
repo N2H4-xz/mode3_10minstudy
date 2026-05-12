@@ -10,3 +10,9 @@ __pycache__/
 # Local editor and OS metadata.
 .DS_Store
 Thumbs.db
+
+# Web experiment outputs contain local user conversation data.
+transcripts/web_sessions/
+transcripts/users/
+.playwright-mcp/
+.deploy_*

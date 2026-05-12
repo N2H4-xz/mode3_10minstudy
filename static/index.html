@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StyleLab</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand-row">
+          <div class="brand-mark">S</div>
+          <div class="brand-name">StyleLab</div>
+          <button class="icon-button mobile-only" id="closeSidebar" aria-label="关闭侧边栏">×</button>
+        </div>
+        <section class="user-panel">
+          <div class="field-title">用户</div>
+          <div class="user-switch-row">
+            <input id="userInput" type="text" value="local_user" placeholder="输入用户名称" />
+            <button id="switchUserBtn" type="button">切换</button>
+          </div>
+          <div class="user-profile-info" id="userProfileInfo">未载入用户</div>
+          <details class="import-panel">
+            <summary>导入风格</summary>
+            <label class="profile-name-label">
+              风格名称
+              <input id="styleNameInput" type="text" value="导入风格" />
+            </label>
+            <label class="file-import-label">
+              选择已学习风格 JSON
+              <input id="styleFileInput" type="file" accept="application/json,.json" />
+            </label>
+            <textarea id="styleImportText" rows="4" placeholder="也可以粘贴 style_profile JSON"></textarea>
+            <button class="import-style-button" id="importStyleBtn" type="button">导入到当前用户</button>
+          </details>
+          <details class="raw-user-panel">
+            <summary>当前用户 JSON</summary>
+            <button class="raw-user-button" id="loadUserJsonBtn" type="button">查看当前用户 JSON</button>
+            <div class="raw-user-path" id="userJsonPath"></div>
+            <textarea id="userJsonText" rows="8" readonly placeholder="点击按钮后显示服务器保存的完整用户 JSON"></textarea>
+          </details>
+        </section>
+        <nav class="mode-list" aria-label="实验模式">
+          <button class="mode-item active" data-stage="collect">
+            <span class="mode-title">语料采集模式</span>
+            <span class="mode-desc">通过自然对话收集用户说话信息</span>
+          </button>
+          <button class="mode-item" data-stage="manual_style">
+            <span class="mode-title">主动设定风格模式</span>
+            <span class="mode-desc">描述你认为自己的说话方式和表达限制</span>
+          </button>
+          <button class="mode-item" data-stage="learned_style">
+            <span class="mode-title">多轮对话测试</span>
+            <span class="mode-desc">分别测试两种回复方式</span>
+          </button>
+          <button class="mode-item" data-stage="score">
+            <span class="mode-title">相似度评分模式</span>
+            <span class="mode-desc">对两种回复进行十分制评分</span>
+          </button>
+        </nav>
+        <div class="user-strip">
+          <div class="avatar">U</div>
+          <span id="currentUserLabel">local_user</span>
+          <button class="more-button" aria-label="更多">···</button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <button class="icon-button mobile-only" id="openSidebar" aria-label="打开侧边栏">☰</button>
+          <div class="stage-status" id="stageStatus">未开始</div>
+        </header>
+
+        <section class="workspace">
+          <div class="empty-state" id="emptyState">
+            <div class="hero-mark">S</div>
+            <h1>开始语言风格学习实验</h1>
+            <div class="stage-pills" id="stagePills">
+              <span class="pill active" data-stage="collect">采集语料</span>
+              <span class="pill" data-stage="manual_style">设定风格</span>
+              <span class="pill" data-stage="learned_style">多轮对话测试</span>
+              <span class="pill" data-stage="score">评分</span>
+            </div>
+          </div>
+
+          <div class="test-mode-bar hidden" id="testModeBar" role="group" aria-label="测试风格类型">
+            <button class="test-mode-button" id="manualTestModeBtn" type="button" data-test-mode="manual">第一种</button>
+            <button class="test-mode-button active" id="learnedTestModeBtn" type="button" data-test-mode="learned">第二种</button>
+          </div>
+
+          <section class="collection-identity-panel hidden" id="collectionIdentityPanel">
+            <label>语料采集基本身份
+              <textarea id="collectionIdentity" rows="2" placeholder="例如：大二学生、研一学生、正在准备考试的人"></textarea>
+            </label>
+          </section>
+
+          <div class="chat-panel" id="chatPanel" aria-live="polite"></div>
+
+          <section class="profile-panel hidden" id="profilePanel">
+            <div class="section-heading">风格画像</div>
+            <div class="profile-grid" id="profileGrid"></div>
+          </section>
+
+          <section class="form-panel hidden" id="manualFormPanel">
+            <div class="section-heading">你觉得自己说话方式是怎样的</div>
+            <div class="form-grid compact-form-grid">
+              <label>身份<textarea id="identity" rows="3" placeholder="例如：研一学生、普通大学生、正在准备汇报的人"></textarea></label>
+              <label>语言风格<textarea id="languageStyle" rows="3" placeholder="例如：偏犹豫、口语化、会反复确认、表达比较简洁"></textarea></label>
+              <label class="wide">限制<textarea id="constraints" rows="3" placeholder="例如：不出现动作描写；每次回复不超过 300 字"></textarea></label>
+            </div>
+            <div class="panel-actions">
+              <button class="primary-action" id="manualSaveBtn">保存设定，进入测试</button>
+            </div>
+          </section>
+
+          <section class="score-panel hidden" id="scorePanel">
+            <div class="section-heading">相似度评分</div>
+            <div class="compare-grid">
+              <div class="compare-column">
+                <h2>第一种 LLM 多轮对话</h2>
+                <div id="manualDialogueBox" class="dialogue-box"></div>
+              </div>
+              <div class="compare-column">
+                <h2>第二种 LLM 多轮对话</h2>
+                <div id="learnedDialogueBox" class="dialogue-box"></div>
+              </div>
+            </div>
+            <div class="overall-score-panel">
+              <h2>整体相似度评分</h2>
+              <div class="overall-score-grid">
+                <label>第一种整体分数 <input id="manualScore" type="number" min="0" max="10" value="5" /></label>
+                <label>第二种整体分数 <input id="learnedScore" type="number" min="0" max="10" value="5" /></label>
+              </div>
+            </div>
+            <button class="primary-action" id="submitScoreBtn">提交评分并保存记录</button>
+            <div class="saved-paths" id="savedPaths"></div>
+          </section>
+        </section>
+
+        <footer class="composer-wrap" id="composerWrap">
+          <div class="composer">
+            <textarea id="messageInput" rows="2" placeholder="输入你的回答，开始采集说话风格"></textarea>
+            <div class="guidance-row" id="guidanceRow">
+              <button class="guidance-button" id="switchTopicBtn" type="button">换个话题</button>
+              <button class="guidance-button" id="continueTopicBtn" type="button">继续刚刚的话题</button>
+            </div>
+            <div class="composer-bottom">
+              <button class="send-button" id="sendBtn" aria-label="发送">↑</button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
